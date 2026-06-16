@@ -10,7 +10,7 @@
         margin-top: 5%;
         margin-bottom: 7%;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 250%;
+        font-size: 100%;
     }
 }
 
@@ -63,12 +63,12 @@
 }
 
 #temp_cityname {
-    font-size: 220%;
+    font-size: 120%;
     margin-top: 10%;
 }
 
 #temp_wheather_text {
-    font-size: 220%;
+    font-size: 120%;
 }
 
 #temp_tempreture_text {
