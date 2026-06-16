@@ -2,11 +2,11 @@
     margin-top: 10%;
     margin-bottom: 10%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10%;
+    font-size: 90%;
 }
 
 #temp_emoji {
-    font-size: 50%;
+    font-size: 80%;
     margin-bottom: 3%;
 }
 
@@ -22,18 +22,18 @@
 
     /* テキストを真ん中揃えにする */
     text-align: center;
-    font-size: 25%;
+    font-size: 80%;
 
     margin-top: 30%;
 }
 
 #temp_cityname {
-    font-size: 40%;
+    font-size: 90%;
     margin-top: 10%;
 }
 
 #temp_wheather_text {
-    font-size: 30%;
+    font-size: 70%;
 }
 
 #temp_tempreture_text {
