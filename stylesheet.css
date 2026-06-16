@@ -2,12 +2,29 @@
     margin-top: 5%;
     margin-bottom: 7%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 400%;
+    font-size: 250%;
+}
+
+@media (min-width: 768px) {
+    .title {
+        margin-top: 5%;
+        margin-bottom: 7%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 400%;
+
+    }
 }
 
 #temp_emoji {
-    font-size: 380%;
+    font-size: 250%;
     margin-bottom: 3%;
+}
+
+@media (min-width: 768px) {
+    #temp_emoji {
+        font-size: 380%;
+        margin-bottom: 3%;
+    }
 }
 
 #result {
@@ -22,9 +39,28 @@
 
     /* テキストを真ん中揃えにする */
     text-align: center;
-    font-size: 200%;
+    font-size: 100%;
 
     margin-top: 3%;
+}
+
+@media (min-width: 768px) {
+    #result {
+        /* 自由に並べ替えるために定義 */
+        display: flex;
+        /* レイアウトを垂直方向に並べる */
+        flex-direction: column;
+        /* 左右を揃える */
+        align-items: center;
+        /* 上下を揃える */
+        justify-content: center;
+
+        /* テキストを真ん中揃えにする */
+        text-align: center;
+        font-size: 200%;
+
+        margin-top: 3%;
+    }
 }
 
 #temp_cityname {
@@ -35,6 +71,28 @@
 #temp_wheather_text {
     font-size: 220%;
 }
+
+#temp_tempreture_text {
+    margin-top: 10%;
+}
+
+#temp_windspeed_text {
+    margin-top: 5%;
+}
+
+#temp_winddirection_text {
+    margin-top: 5%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 10%;
+    margin-bottom: 5%;
+}}
 
 #temp_tempreture_text {
     margin-top: 10%;
