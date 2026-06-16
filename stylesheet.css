@@ -1,13 +1,13 @@
 .title {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
+    font-size: 10%;
 }
 
 #temp_emoji {
-    font-size: 200px;
-    margin-bottom: 10px;
+    font-size: 50%;
+    margin-bottom: 3%;
 }
 
 #result {
@@ -22,30 +22,30 @@
 
     /* テキストを真ん中揃えにする */
     text-align: center;
-    font-size: 20px;
+    font-size: 25%;
 
-    margin-top: 30px;
+    margin-top: 30%;
 }
 
 #temp_cityname {
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 40%;
+    margin-top: 10%;
 }
 
 #temp_wheather_text {
-    font-size: 40px;
+    font-size: 30%;
 }
 
 #temp_tempreture_text {
-    margin-top: 30px;
+    margin-top: 10%;
 }
 
 #temp_windspeed_text {
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
 #temp_winddirection_text {
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
 .footer {
@@ -54,6 +54,6 @@
     justify-content: center;
     text-align: center;
 
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40%;
+    margin-bottom: 40%;
 }
